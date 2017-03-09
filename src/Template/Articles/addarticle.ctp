@@ -10,9 +10,9 @@
 <?=$this->Form->end();?>
 <div>
  <?php foreach ($embark as $value): ?>
- 	 <?=h($value->name) ?>
- 	 <?= h($value->email) ?>
- 	 <?= h($value->created) ?>
+ 	 <?=h($value->name); ?>
+ 	 <?= h($value->email); ?>
+ 	 <?= h($value->created); ?>
  <?php endforeach; ?>
 
 </div>
